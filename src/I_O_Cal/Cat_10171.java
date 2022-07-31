@@ -10,11 +10,12 @@ public class Cat_10171 {
 
         // 사용할 객체 생성
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
+        
+        // 필요한 결과 출력
         bw.write("\\    /\\\n");
         bw.write(" )  ( ')\n");
         bw.write("(  /  )\n");
-        bw.write(" \\(__)|");
+        bw.write(" \\(__)|\n");
         bw.flush();
         bw.close();
 
