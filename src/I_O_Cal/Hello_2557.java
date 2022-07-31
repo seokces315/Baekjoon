@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 // 백준 제출시 클래스명 -> 'Main'
-public class Hello {
+public class Hello_2557 {
 
     // BufferedWriter 클래스 사용시 예외처리 필요
     public static void main(String[] args) throws IOException {
