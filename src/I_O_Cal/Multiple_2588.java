@@ -1,10 +1,8 @@
 package I_O_Cal;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class Multiple_2588 {
 
@@ -12,7 +10,7 @@ public class Multiple_2588 {
 
         // 사용할 객체 및 변수 생성
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
 
         // 세 자리 자연수들 입력받기
         int A = Integer.parseInt(br.readLine());
@@ -24,13 +22,12 @@ public class Multiple_2588 {
         int third = A * (B / 10 / 10);
 
         // 원하는 결과 출력
-        bw.write(String.valueOf(first) + "\n");
-        bw.write(String.valueOf(second) + "\n");
-        bw.write(String.valueOf(third) + "\n");
-        bw.write(Integer.toString(first + (second*10) + (third*10*10)));
-        bw.newLine();
-        bw.flush();
-        bw.close();
+        sb.append(first).append("\n");
+        sb.append(second).append("\n");
+        sb.append(third).append("\n");
+        sb.append(first + (second*10) + (third*10*10));
+
+        System.out.println(sb);
 
     }
 

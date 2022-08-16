@@ -24,16 +24,11 @@ public class Chess_3003 {
 
         // 원하는 결과 출력
         // sb.append() 메서드 활용
-        sb.append(1 - first);
-        sb.append(" ");
-        sb.append(1 - second);
-        sb.append(" ");
-        sb.append(2 - third);
-        sb.append(" ");
-        sb.append(2 - fourth);
-        sb.append(" ");
-        sb.append(2 - fifth);
-        sb.append(" ");
+        sb.append(1 - first).append(" ");
+        sb.append(1 - second).append(" ");
+        sb.append(2 - third).append(" ");
+        sb.append(2 - fourth).append(" ");
+        sb.append(2 - fifth).append(" ");
         sb.append(8 - sixth);
         
         // sb 변수에 StringBuilder 객체가 저장된 상태

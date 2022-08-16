@@ -13,11 +13,10 @@ public class Kriii_10718 {
         
         // 필요한 결과 출력
         for(int i=0 ; i<2 ; i++) {
-            bw.write("강한친구 대한육군");
-            bw.newLine();  // 줄바꿈
-            bw.flush();
+            bw.write("강한친구 대한육군\n");
         }
 
+        bw.flush();
         bw.close();
 
     }
