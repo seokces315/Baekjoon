@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+// 보강코딩
+// 조건 분기를 삼항연산자로 표현할 수 있음
+// { year%4==0 ? [ year%100==0 ? 0 : (year%400==0 ? 1 : 0) ] : 0 }
 public class LeapYear_2753 {
 
     public static void main(String[] args) throws IOException {
