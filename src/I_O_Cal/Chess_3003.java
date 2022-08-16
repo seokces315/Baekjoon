@@ -33,7 +33,7 @@ public class Chess_3003 {
         
         // sb 변수에 StringBuilder 객체가 저장된 상태
         // toString() 메서드로 문자열로 형변환 후 출력
-        System.out.println(sb.toString());
+        System.out.println(sb);
 
     }
 
