@@ -20,7 +20,7 @@ public class PrintStar2_2439 {
             // Java는 문자열 곱셈이 불가능하므로
             // 2중 for-loop문 작성
             for(int j=0 ; j<N ; j++) {
-                if(j<(N-i-1)) {
+                if(j<(N-1-i)) {
                     sb.append(" ");
                 }
                 else {

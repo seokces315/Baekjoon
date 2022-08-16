@@ -25,7 +25,7 @@ public class Adder4_10952 {
             int B = Integer.parseInt(st.nextToken());
 
             // while-loop를 탈출할 조건
-            if((A==0)&&(B==0)) {
+            if((A==0) && (B==0)) {
                 break;
             }
             

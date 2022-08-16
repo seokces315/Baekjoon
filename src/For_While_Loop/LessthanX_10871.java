@@ -24,7 +24,7 @@ public class LessthanX_10871 {
         // for-loop문 작성
         st = new StringTokenizer(br.readLine());
         for(int i=0 ; i<N ; i++) {
-            // 대조군 선언
+            // 비교군 선언
             int con = Integer.parseInt(st.nextToken());
             
             // 대조군과 X를 비교해서 작으면 StringBuilder에 append
