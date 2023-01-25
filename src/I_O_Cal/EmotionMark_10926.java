@@ -21,7 +21,6 @@ public class EmotionMark_10926 {
 
         System.out.println(sb);
 
-
     }
 
 }

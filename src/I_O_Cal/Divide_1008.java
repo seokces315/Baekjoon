@@ -19,8 +19,8 @@ public class Divide_1008 {
 
         // 입력 -> 0 < A, B < 10
         // 공백을 기준으로 분리해 각각 실수형으로 저장
-        double first = Integer.parseInt(st.nextToken());
-        double second = Integer.parseInt(st.nextToken());
+        double first = Double.parseDouble(st.nextToken());
+        double second = Double.parseDouble(st.nextToken());
         // 실수형 데이터를 나눔
         result = Double.toString(first / second); // 결과를 write하기 위해 형변환(String)
 

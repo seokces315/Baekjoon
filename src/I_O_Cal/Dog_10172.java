@@ -20,7 +20,6 @@ public class Dog_10172 {
         bw.flush();
         bw.close();
 
-
     }
 
 }

@@ -8,12 +8,14 @@ import java.io.OutputStreamWriter;
 
 public class Remain_3052 {
 
+    // 상수 선언
+    public static final int N = 10;
+
     public static void main(String[] args) throws IOException {
 
         // 사용할 객체 및 변수 생성
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));;
-        int N = 10; // 백준 입력파일에 10개의 정수가 존재
 
         // 특정 수를 42로 나누었을 때 나타날 수 있는 나머지의 배열
         // Default -> false

@@ -49,8 +49,8 @@ public class SelfNumber_4673 {
 
         // 생성자를 가지는 수의 논리값을 변경
         boolList[0] = true;
-        for(int i=1 ; i<=10000 ; i++) {
-            if(d_alpha(i) <= 10000) {
+        for(int i=1 ; i<boolList.length ; i++) {
+            if(d_alpha(i) < boolList.length) {
                 boolList[d_alpha(i)] = true;
             }
         }

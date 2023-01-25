@@ -29,19 +29,19 @@ public class OvenClock_2525 {
         int divC = C / 60;
         int remC = C % 60;
 
-        // 각 변수에 구분된 데이터를 더하기
-        A += divC;
-        B += remC;
-
         // 올림 처리
-        if((B+remC) >= 60) {
+        if((B + remC) >= 60) {
             A++;
             B -= 60;
         }
+
+        // 각 변수에 구분된 데이터를 더하기
+        A += divC;
+        B += remC;
         
         // 원하는 결과 출력
         // A의 특수한 상황은 삼항연산자를 통해 해결
-        sb.append((A>=24) ? A-24 : A).append(" ").append(B);
+        sb.append((A >= 24) ? A - 24 : A).append(" ").append(B);
 
         System.out.println(sb);
 
