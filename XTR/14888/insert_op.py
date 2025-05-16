@@ -50,7 +50,7 @@ N = int(input())  # 2 <= N <= 11
 seq = list(map(int, input().split()))  # 1 <= A <= 100
 op_values = list(map(int, input().split()))  # Max : 10
 
-# Define operator coutn dict & space
+# Define operator count dict & space
 op_keys = ["+", "-", "*", "//"]
 op_cnt_dict = dict(zip(op_keys, op_values))
 space = []
