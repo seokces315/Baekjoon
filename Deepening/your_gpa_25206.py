@@ -1,27 +1,18 @@
 # Function to map rating
 def map_rating(rating):
-    if rating == "A+":
-        res = 4.5
-    elif rating == "A0":
-        res = 4.0
-    elif rating == "B+":
-        res = 3.5
-    elif rating == "B0":
-        res = 3.0
-    elif rating == "C+":
-        res = 2.5
-    elif rating == "C0":
-        res = 2.0
-    elif rating == "D+":
-        res = 1.5
-    elif rating == "D0":
-        res = 1.0
-    elif rating == "F":
-        res = 0.0
-    else:
-        res = -1
-
-    return res
+    rating_map = {
+        "A+": 4.5,
+        "A0": 4.0,
+        "B+": 3.5,
+        "B0": 3.0,
+        "C+": 2.5,
+        "C0": 2.0,
+        "D+": 1.5,
+        "D0": 1.0,
+        "F": 0.0,
+        "P": -1,
+    }
+    return rating_map.get(rating)
 
 
 # Input processing & Calculate results
