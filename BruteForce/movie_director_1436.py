@@ -12,4 +12,5 @@ while cnt < N:  # Exit condition
     if "666" in str(cur_num):
         cnt += 1
 
+# Print output
 print(cur_num)
